@@ -12,4 +12,4 @@ format:
 	(poetry run black .; \
 	poetry run isort --profile black .)
 test:
-	poetry run pytest tests/unit
+	poetry run pytest tests

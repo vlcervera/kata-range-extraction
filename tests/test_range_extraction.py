@@ -1,6 +1,6 @@
 import pytest
 
-from range_extraction import RangeExtraction, IncorrectMinRangeSize
+from src.range_extraction import RangeExtraction, IncorrectMinRangeSize
 
 
 class TestRangeExtractionShould:

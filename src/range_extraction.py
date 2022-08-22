@@ -12,7 +12,7 @@ class RangeExtraction:
     def __init__(self, numbers: List[int]):
         self.numbers = sorted(numbers)
 
-    def extract(self, min_range_size: int = 3) -> str:
+    def execute(self, min_range_size: int = 3) -> str:
         if min_range_size < 1:
             raise IncorrectMinRangeSize(min_range_size)
 
